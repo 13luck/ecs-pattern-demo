@@ -16,7 +16,7 @@ test('createFizzBuzzSystem', () => {
         fizzBuzzSystem(world)
     }
 
-    Array.from({ length: 15 }).forEach(click)
+    Array.from({ length: 21 }).forEach(click)
 
     /** executes the system without user clicks to demonstrate its core logic and ensure correct calculations */
     fizzBuzzSystem(world)
@@ -39,5 +39,11 @@ test('createFizzBuzzSystem', () => {
         "13 lucky! 🍀",
         "14",
         "15 fizz buzz",
+        "16",
+        "17",
+        "18 fizz",
+        "19",
+        "20 buzz twenty 2️⃣0️⃣",
+        "21 fizz",
     ])
 })
